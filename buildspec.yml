@@ -6,7 +6,7 @@ phases:
       python: 3.11
   build:
     commands:
-      - echo "Zipping the Python app..."
+      - echo "Zipping Flask app..."
       - zip -r app.zip python-hello-world/
 artifacts:
   files:
