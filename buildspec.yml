@@ -18,6 +18,10 @@ phases:
       - docker push $REPO_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       - printf '[{"name":"python","imageUri":"%s"}]' $REPO_URI:$IMAGE_TAG > imagedefinitions.json
+
 artifacts:
   files:
+    - appspec.yml
     - imagedefinitions.json
+    - scripts/**  # Include all files inside scripts/
+
