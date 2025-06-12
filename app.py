@@ -5,7 +5,7 @@ try:
 
     @app.route('/')
     def home():
-        return "Hello, world!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        return "Hello, world!!!!!!!!!!!!!!!!!!!!!!!!!! from docker EC2"
 
     if __name__ == '__main__':
         app.run(host='0.0.0.0', port=5000)
