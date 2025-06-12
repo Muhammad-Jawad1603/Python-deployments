@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
+
 files:
   - source: /
-    destination: /home/ubuntu
+    destination: /home/ubuntu/python-app
+
 hooks:
   BeforeInstall:
     - location: scripts/stop.sh
