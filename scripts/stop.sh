@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "No containers to stop. Skipping..." > /home/ubuntu/stop.log
-exit 0
+sudo docker stop python-app || true
+sudo docker rm python-app || true
