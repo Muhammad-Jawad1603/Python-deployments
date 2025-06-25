@@ -5,7 +5,7 @@ try:
 
     @app.route('/')
     def home():
-        return "Hello, world!!!!!!!!!!!!!!!!!!!!!!!!!! python!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ECS!!!!!!!!!!!!"
+        return "Welcome Python!"
 
     if __name__ == '__main__':
         app.run(host='0.0.0.0', port=5000)
